@@ -19,7 +19,7 @@ object FindSExample extends App with LogHelper {
   /** ******************************
     * TRAINER INITIALIZATION
     * *******************************/
-  val path = "/tmp/find_s"
+  val path = "/tmp"
   val jsonHelper = new FileHelper {}.reset(path)
   val trainer = new FindSTrainer {
     val trainingSampleFilePath = trainingDataFilePath
